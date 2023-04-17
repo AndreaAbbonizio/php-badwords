@@ -10,11 +10,12 @@
 <h1>BadWords</h1>
 <p>inserisci un testo e una parola da censurare</p>
 <form action="resultPage.php" method="GET">
-    <input type="text" name="text" placeholder="Inserisci un testo">
+    <input type="text" name="text" placeholder="Inserisci un testo" style="width: 600px; margin-bottom: 1em;" required>
 
     <br>
 
-    <input type="text" name="word" placeholder="Inserisci una parola">
+    <input type="text" name="word" placeholder="Inserisci una parola" required>
+    
 
     <input type="submit">
 </form>
